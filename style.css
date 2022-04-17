@@ -1,0 +1,55 @@
+body {
+  color: #fff;
+}
+
+body h1 {
+  font-size: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: auto;
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+}
+
+body .circle {
+  top: 0px;
+  left: 200px;
+  width: 340px;
+  height: 340px;
+  border-radius: 300px;
+  background: var(--x);
+  position: relative;
+  -webkit-animation: mymove 3s ease-in 1s 2;
+          animation: mymove 3s ease-in 1s 2;
+}
+
+body input[type="range"] {
+  -webkit-appearance: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: auto;
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+  font: inherit;
+  color: #069;
+  opacity: .8;
+  background: #CCC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
